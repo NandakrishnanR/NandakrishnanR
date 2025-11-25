@@ -1,13 +1,12 @@
 <!-- Profile README for @NandakrishnanR -->
-
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&height=220&color=0:ff6a00,100:ee0979&text=Nandakrishnan%20Rajeev&fontAlign=50&fontSize=50&fontColor=ffffff&desc=Agentic%20AI%20%7C%20Automation%20%7C%20MLOps&descAlign=50&descAlignY=70" alt="header" width="88%" />
+  <img src="https://capsule-render.vercel.app/api?type=wave&height=300&color=0:ff6a00,100:ee0979&text=Nandakrishnan%20Rajeev&fontAlign=50&fontAlignY=25&fontSize=50&fontColor=ffffff&desc=Agentic%20AI%20%7C%20Automation%20%7C%20MLOps&descAlign=50&descAlignY=50" alt="header" width="100%" />
 </p>
 
 <!-- Hero typing -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=900&color=FF6A00&center=true&vCenter=true&width=850&lines=I+build+Agentic+AI+for+enterprises.;Previously+%40+BMW+Group+(Germany)+%E2%80%A2+Now+%40+Maschinenfabrik+Reinhausen;Systems+that+ship%2C+scale%2C+and+pay+for+themselves." alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=900&color=FF6A00&center=true&vCenter=true&width=1000&lines=I+build+Agentic+AI+for+enterprises.;Previously+%40+BMW+Group+(Germany)+%E2%80%A2+Now+%40+Maschinenfabrik+Reinhausen;Systems+that+ship%2C+scale%2C+and+pay+for+themselves." alt="typing" />
 </p>
 
 ## 👋 Namaste!
@@ -15,7 +14,7 @@
 - 🏢 Experience: Previously at BMW Group (Germany) • Now at Maschinenfabrik Reinhausen.
 - 🧠 Interests: Automation, MLOps, platform engineering, robust production LLM systems.
 - 📫 Contact: [Email](mailto:nandakrishnan.rajeev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/nandakrishnan-rajeev/)
-- 🌏 Timezone: IST (Asia/Kolkata)
+- 🌏 Timezone: CEST (Berlin/Germany)
 
 <p>
   <img src="https://img.shields.io/badge/Enterprise-Agentic_AI-ff6a00?style=for-the-badge&logo=apacheairflow&logoColor=white" />
@@ -78,5 +77,5 @@
 - Ship → measure → tighten feedback loops → repeat.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:ee0979,100:ff6a00&section=footer" width="88%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:ee0979,100:ff6a00&section=footer" width="100%" />
 </p>
