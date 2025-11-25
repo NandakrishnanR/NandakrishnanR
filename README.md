@@ -2,7 +2,7 @@
 
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&height=220&color=0:ff6a00,100:ee0979&text=Nandakrishnan%20Rajeev&fontAlign=50&fontSize=50&fontColor=ffffff&desc=Agentic%20AI%20%7C%20Automation%20%7C%20MLOps&descAlign=50&descAlignY=70" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=wave&height=220&color=0:ff6a00,100:ee0979&text=Nandakrishnan%20Rajeev&fontAlign=50&fontSize=50&fontColor=ffffff&desc=Agentic%20AI%20%7C%20Automation%20%7C%20MLOps&descAlign=50&descAlignY=70" alt="header" width="88%" />
 </p>
 
 <!-- Hero typing -->
@@ -16,8 +16,6 @@
 - 🧠 Interests: Automation, MLOps, platform engineering, robust production LLM systems.
 - 📫 Contact: [Email](mailto:nandakrishnan.rajeev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/nandakrishnan-rajeev/)
 - 🌏 Timezone: IST (Asia/Kolkata)
-
-<img src="assets/Interactive%20Mage%20animation.gif" alt="Interactive Mage animation" align="right" width="260">
 
 <p>
   <img src="https://img.shields.io/badge/Enterprise-Agentic_AI-ff6a00?style=for-the-badge&logo=apacheairflow&logoColor=white" />
@@ -80,5 +78,5 @@
 - Ship → measure → tighten feedback loops → repeat.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:ee0979,100:ff6a00&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:ee0979,100:ff6a00&section=footer" width="88%" />
 </p>
