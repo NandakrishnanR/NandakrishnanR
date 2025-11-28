@@ -1,32 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300">
-  <rect x="0" y="0" width="760" height="300" rx="12" fill="#0b1220"/>
-  <text x="24" y="34" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Tech Radar - Recent Work</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Tech Radar">
+  <rect width="900" height="300" rx="12" fill="#0b1220"/>
 
-  <!-- concentric rings -->
-  <g transform="translate(220,160)" fill="none" stroke="#1f2937" stroke-width="1">
+  <!-- Title -->
+  <text x="28" y="34" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">
+    Tech Radar — Recent Work
+  </text>
+  <text x="28" y="52" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif" font-size="11">
+    ML/AI centered, CI/CD & MLOps inner rings, Docker/MLOps mid, Embedded & Automation outer rings
+  </text>
+
+  <!-- concentric rings centered at 260,160 -->
+  <g transform="translate(260,160)" fill="none" stroke="#1f2937" stroke-width="1">
     <circle r="120"/>
     <circle r="80"/>
     <circle r="40"/>
   </g>
 
-  <!-- center -->
-  <circle cx="220" cy="160" r="22" fill="#ff6a00" stroke="#0b1220"/>
-  <text x="252" y="158" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">Machine Learning & AI</text>
-  <text x="252" y="174" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">PyTorch, TensorFlow, RAG</text>
+  <!-- radar dots (positions reflect layers) -->
+  <!-- center: ML/AI -->
+  <circle cx="260" cy="160" r="20" fill="#ff6a00" stroke="#0b1220" stroke-width="1"/>
 
-  <!-- simple dots -->
-  <circle cx="160" cy="120" r="10" fill="#8a2be2" stroke="#0b1220"/>
-  <text x="176" y="122" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">CI / CD</text>
+  <!-- inner ring: CI/CD (2nd from center) -->
+  <circle cx="205" cy="120" r="10" fill="#8a2be2" stroke="#0b1220" stroke-width="1"/>
 
-  <circle cx="270" cy="120" r="10" fill="#b085ff" stroke="#0b1220"/>
-  <text x="286" y="122" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">MLOps</text>
+  <!-- inner ring: MLOps -->
+  <circle cx="315" cy="120" r="10" fill="#ffd966" stroke="#0b1220" stroke-width="1"/>
 
-  <circle cx="280" cy="170" r="12" fill="#4ade80" stroke="#0b1220"/>
-  <text x="300" y="172" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">Docker</text>
+  <!-- mid ring: Docker -->
+  <circle cx="320" cy="180" r="14" fill="#4ade80" stroke="#0b1220" stroke-width="1"/>
 
-  <!-- outer -->
-  <circle cx="340" cy="96" r="10" fill="#232f3e" stroke="#0b1220"/>
-  <text x="356" y="98" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">AWS</text>
+  <!-- nearby AI tooling -->
+  <circle cx="290" cy="140" r="8" fill="#ffd166" stroke="#0b1220" stroke-width="1"/>
 
-  <text x="24" y="286" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif" font-size="11">Static tech radar - reflects recent work</text>
+  <!-- embedded / controls outer -->
+  <circle cx="140" cy="220" r="10" fill="#00c2ff" stroke="#0b1220" stroke-width="1"/>
+  <circle cx="100" cy="200" r="6" fill="#7fe8ff" stroke="#0b1220" stroke-width="1"/>
+
+  <!-- labview / scada far outer -->
+  <circle cx="60" cy="84" r="10" fill="#0076A8" stroke="#0b1220" stroke-width="1"/>
+  <circle cx="44" cy="40" r="8" fill="#1fb6d9" stroke="#0b1220" stroke-width="1"/>
+
+  <!-- TwinCAT / Beckhoff outer -->
+  <circle cx="100" cy="252" r="9" fill="#2b9fff" stroke="#0b1220" stroke-width="1"/>
+
+  <!-- infra back items -->
+  <circle cx="340" cy="210" r="10" fill="#b085ff" stroke="#0b1220" stroke-width="1"/>
+  <circle cx="380" cy="160" r="8" fill="#4479A1" stroke="#0b1220" stroke-width="1"/>
+
+  <!-- Legend block on the right with small color dots -->
+  <g transform="translate(460,56)">
+    <text x="0" y="0" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">Recent work — legend</text>
+
+    <!-- Agentic AI (center) -->
+    <g transform="translate(0,22)">
+      <circle cx="0" cy="6" r="6" fill="#ff6a00" stroke="#0b1220" stroke-width="1"/>
+      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">Agentic AI · LLM fine-tuning (LoRA / QLoRA)</text>
+    </g>
+
+    <!-- MLOps / CI/CD -->
+    <g transform="translate(0,46)">
+      <circle cx="0" cy="6" r="6" fill="#ffd966" stroke="#0b1220" stroke-width="1"/>
+      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">MLOps · CI/CD · AWS · SageMaker</text>
+    </g>
+
+    <!-- Embedded / Controls -->
+    <g transform="translate(0,70)">
+      <circle cx="0" cy="6" r="6" fill="#00c2ff" stroke="#0b1220" stroke-width="1"/>
+      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">Embedded · HIL · Simulink · LabVIEW · PROFINET</text>
+    </g>
+
+    <!-- ML Tooling -->
+    <g transform="translate(0,94)">
+      <circle cx="0" cy="6" r="6" fill="#ffd166" stroke="#0b1220" stroke-width="1"/>
+      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">PyTorch · TensorFlow · RL · RAG</text>
+    </g>
+
+    <!-- Docker / Infra -->
+    <g transform="translate(0,118)">
+      <circle cx="0" cy="6" r="6" fill="#4ade80" stroke="#0b1220" stroke-width="1"/>
+      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">Docker · GitHub Actions · Git · MySQL · Linux</text>
+    </g>
+
+    <!-- TwinCAT -->
+    <g transform="translate(0,142)">
+      <circle cx="0" cy="6" r="6" fill="#2b9fff" stroke="#0b1220" stroke-width="1"/>
+      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">TwinCAT · Beckhoff</text>
+    </g>
+  </g>
+
+  <!-- footer note -->
+  <text x="28" y="286" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif" font-size="11">
+    Static tech radar — labels show recent work and priorities
+  </text>
 </svg>
