@@ -6,7 +6,7 @@
 
 <!-- Hero typing -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=900&color=FF6A00&center=true&vCenter=true&width=1000&lines=I+build+Agentic+AI+for+enterprises.;Previously+%40+BMW+Group+(Germany)+%E2%80%A2+Now+%40+Maschinenfabrik+Reinhausen;Systems+that+ship%2C+scale%2C+and+pay+for+themselves." alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=900&color=FF6A00&center=true&vCenter=true&width=1000&lines=I+build+Agentic+AI+for+enterprises.;Systems+that+ship%2C+scale%2C+and+pay+for+themselves." alt="typing" />
 </p>
 
 ## 👋 Namaste!
@@ -29,10 +29,10 @@
 An orchestrated multi-agent system with:
 - Tooling: function-calling, tool routing, safe execution sandboxes  
 - Memory: hybrid RAG with policy layers + cost controls  
-- Observability: traces, evals, drift detection, red-teaming hooks  
-- Governance: prompt versioning, PII hygiene, jailbreak resistance, human-in-the-loop  
+- Observability: traces, evals, drift detection, red‑teaming hooks  
+- Governance: prompt versioning, PII hygiene, jailbreak resistance, human‑in‑the‑loop  
 
-Enterprise-grade: deterministic fallbacks, audit trails, SOC-friendly logging.
+Enterprise-grade: deterministic fallbacks, audit trails, SOC‑friendly logging.
 
 > Want a demo or collab? Ping me on [LinkedIn](https://www.linkedin.com/in/nandakrishnan-rajeev/) or [email](mailto:nandakrishnan.rajeev@gmail.com).
 
@@ -42,13 +42,15 @@ Enterprise-grade: deterministic fallbacks, audit trails, SOC-friendly logging.
 - Tech radar and core focus areas (static visual):  
   ![Tech Radar](./tech-radar.svg)
 
+  The tech radar is intentionally simple and based on recent work: ML/AI centered, CI/CD & MLOps in the inner rings, Docker/MLOps in the mid layer, and embedded/automation (LabVIEW, SCADA, TwinCAT) in the outer layer.
+
 - Repository-level metrics (placeholder badge):  
   ![GitHub metrics](./github-metrics.svg)
 
-- Contribution snapshot:  
+- Contribution snapshot (static placeholder):  
   ![Contribution Snake](./snake.svg)
 
-> Notes: these images are static assets in the repository root. If you replace or regenerate them, keep the same filenames (tech-radar.svg, github-metrics.svg, snake.svg) or update the README image paths accordingly.
+> Notes: images referenced above are static assets committed to the repository root (tech-radar.svg, github-metrics.svg, snake.svg). If you regenerate visuals, keep these filenames or update the README image paths.
 
 ---
 
@@ -61,66 +63,56 @@ Enterprise-grade: deterministic fallbacks, audit trails, SOC-friendly logging.
 ---
 
 ## 🧰 Toolbox (selected)
-
-<!-- Language & Core -->
+<!-- Compact, professional badges for core skills — paste where your Toolbox belongs -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=matlab&logoColor=white)
 
-<!-- ML / LLM -->
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![LoRA](https://img.shields.io/badge/LoRA-6B7280?style=for-the-badge&logo=azure&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-2DD4BF?style=for-the-badge&logo=read-the-docs&logoColor=white)
 
-<!-- Cloud / Infra -->
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GH_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 
-<!-- Embedded / Controls -->
 ![Simulink](https://img.shields.io/badge/Simulink-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![LabVIEW](https://img.shields.io/badge/LabVIEW-FFB300?style=for-the-badge&logo=national-instruments&logoColor=white)
+![TwinCAT](https://img.shields.io/badge/TwinCAT-Beckhoff-2B9FFF?style=for-the-badge&logo=beckhoff&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
-![PROFINET](https://img.shields.io/badge/PROFINET-1F2937?style=for-the-badge&logo=siemens&logoColor=white)
 
-<!-- Data & Dev -->
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FF6A00?style=for-the-badge&logo=huggingface&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-7A42BC?style=for-the-badge&logo=opentelemetry&logoColor=white)
 
-<!-- Certification -->
-![AWS Cloud Practitioner](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
 ---
 
 ## 🧩 Achievements & Metrics
-- Enterprise MLOps pipelines, scaled LLM deployments, production RL integrations.
-- AWS Certified Cloud Practitioner.
-- Published components for HIL and embedded test automation (internal/external contributions).
+- Enterprise MLOps pipelines, scaled LLM deployments, production RL integrations.  
+- AWS Certified Cloud Practitioner.  
+- Published components for HIL and embedded test automation.
 
 ---
 
-## 🔧 How to keep these images working
-1. Ensure these files exist on your default branch with these exact paths/names:
+## 🔧 How to keep these images working (minimal)
+1. Confirm the three files exist on the default branch (usually main) in the repo root:
    - ./tech-radar.svg
    - ./github-metrics.svg
    - ./snake.svg
-   - ./Interactive Mage animation.gif (optional visual)
-2. If you regenerate visuals via Actions or scripts, commit them to the default branch (persist-credentials: true in the checkout step).
-3. If GitHub strips or sanitizes the SVG rendering, produce PNG fallbacks and update the README image path to the PNG.
-
-Quick PNG conversion (local):
-- pip install cairosvg
-- python -c "import cairosvg; cairosvg.svg2png(url='tech-radar.svg', write_to='tech-radar.png')"
+2. If a generated image is updated by Actions, ensure the workflow commits to the default branch and checkout uses persist-credentials: true.
+3. If GitHub refuses to render an SVG, produce a PNG fallback and update the README reference (PNG always renders). Quick conversion:
+   - pip install cairosvg
+   - python -c "import cairosvg; cairosvg.svg2png(url='tech-radar.svg', write_to='tech-radar.png')"
+4. If you still see "Invalid image source", check encoding: files must be UTF-8 without BOM and be well-formed XML. Locally run:
+   - python -c "import xml.etree.ElementTree as ET; ET.parse('tech-radar.svg'); print('OK')"
 
 ---
 
 ## 🌶️ Principles
-- “Boringly reliable” > “flashy but flaky.”  
+- "Boringly reliable" > "flashy but flaky."  
 - Prefer small, composable tools over monoliths.  
 - Ship → measure → tighten feedback loops → repeat.
 
