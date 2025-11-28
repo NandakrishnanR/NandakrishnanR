@@ -89,7 +89,5 @@
   </g>
 
   <!-- footer note -->
-  <text x="28" y="286" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif" font-size="11">
-    Static tech radar — labels show recent work and priorities
-  </text>
+  <text x="28" y="286" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif" font-size="11">Static tech radar — labels show recent work and priorities</text>
 </svg>
