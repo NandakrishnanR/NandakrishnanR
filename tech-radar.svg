@@ -1,31 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="260" viewBox="0 0 520 260" role="img" aria-label="Tech radar">
-  <rect width="520" height="260" rx="12" fill="#0b1220"/>
-  <text x="24" y="36" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Tech Radar — Nandakrishnan R</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260" role="img" aria-label="Tech radar — Nandakrishnan R">
+  <rect width="760" height="260" rx="12" fill="#0b1220"/>
+  <text x="28" y="34" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Tech Radar — Nandakrishnan R</text>
 
-  <!-- rings -->
-  <g transform="translate(160,150)" fill="none" stroke="#1f2937" stroke-width="1">
-    <circle r="90"/>
-    <circle r="60"/>
-    <circle r="30"/>
+  <!-- concentric rings -->
+  <g transform="translate(200,150)" fill="none" stroke="#1f2937" stroke-width="1">
+    <circle r="100"/>
+    <circle r="66"/>
+    <circle r="34"/>
   </g>
 
-  <!-- dots and labels (static, GitHub-safe) -->
-  <circle cx="120" cy="70" r="9" fill="#ff6a00" stroke="#0b1220" stroke-width="1"/>
-  <circle cx="140" cy="48" r="6" fill="#ff8a3d" stroke="#0b1220" stroke-width="1"/>
-  <text x="220" y="64" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="12">Agentic AI · LLM fine‑tuning (LoRA / QLoRA)</text>
+  <!-- dots (positioned with care so labels don't overlap) -->
+  <circle cx="150" cy="46" r="9" fill="#ff6a00" stroke="#0b1220" stroke-width="1"/>
+  <circle cx="188" cy="36" r="6" fill="#ff8a3d" stroke="#0b1220" stroke-width="1"/>
 
-  <circle cx="140" cy="120" r="8" fill="#8a2be2" stroke="#0b1220" stroke-width="1"/>
-  <circle cx="178" cy="142" r="6" fill="#b085ff" stroke="#0b1220" stroke-width="1"/>
-  <text x="220" y="92" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="12">MLOps · CI/CD · AWS · SageMaker</text>
+  <circle cx="220" cy="112" r="8" fill="#8a2be2" stroke="#0b1220" stroke-width="1"/>
+  <circle cx="260" cy="140" r="6" fill="#b085ff" stroke="#0b1220" stroke-width="1"/>
 
-  <circle cx="60" cy="130" r="8" fill="#00c2ff" stroke="#0b1220" stroke-width="1"/>
-  <circle cx="34" cy="156" r="5" fill="#7fe8ff" stroke="#0b1220" stroke-width="1"/>
-  <text x="220" y="120" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="12">Embedded · HIL · Simulink · LabVIEW · PROFINET</text>
+  <circle cx="106" cy="168" r="8" fill="#00c2ff" stroke="#0b1220" stroke-width="1"/>
+  <circle cx="74"  cy="196" r="5" fill="#7fe8ff" stroke="#0b1220" stroke-width="1"/>
 
-  <circle cx="200" cy="100" r="7" fill="#ffd166" stroke="#0b1220" stroke-width="1"/>
-  <circle cx="224" cy="80" r="5" fill="#ffe8a8" stroke="#0b1220" stroke-width="1"/>
-  <text x="220" y="148" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="12">PyTorch · TensorFlow · RL · RAG</text>
+  <circle cx="300" cy="84" r="7" fill="#ffd166" stroke="#0b1220" stroke-width="1"/>
+  <circle cx="332" cy="68" r="5" fill="#ffe8a8" stroke="#0b1220" stroke-width="1"/>
 
-  <circle cx="220" cy="170" r="7" fill="#4ade80" stroke="#0b1220" stroke-width="1"/>
-  <text x="220" y="176" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="12">Docker · GitHub Actions · Git · MySQL · Linux</text>
+  <circle cx="330" cy="178" r="7" fill="#4ade80" stroke="#0b1220" stroke-width="1"/>
+
+  <!-- anchor line separating diagram and text -->
+  <line x1="360" y1="44" x2="360" y2="216" stroke="#0f1724" stroke-width="20"/>
+
+  <!-- labels on the right — each uses tspans for neat wrapping -->
+  <g transform="translate(380,58)">
+    <text x="0" y="0" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">Focus areas</text>
+
+    <text x="0" y="28" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="12">
+      <tspan x="0" dy="0">Agentic AI · LLM fine‑tuning (LoRA / QLoRA)</tspan>
+    </text>
+    <text x="0" y="52" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">
+      <tspan x="0" dy="0">MLOps · CI/CD · AWS · SageMaker</tspan>
+    </text>
+    <text x="0" y="76" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">
+      <tspan x="0" dy="0">Embedded · HIL · Simulink · LabVIEW · PROFINET</tspan>
+    </text>
+    <text x="0" y="100" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">
+      <tspan x="0" dy="0">PyTorch · TensorFlow · RL · RAG</tspan>
+    </text>
+    <text x="0" y="124" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">
+      <tspan x="0" dy="0">Docker · GitHub Actions · Git · MySQL · Linux</tspan>
+    </text>
+  </g>
+
+  <!-- footer small note -->
+  <text x="24" y="246" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif" font-size="11">Static tech radar — use as visual summary of core competencies</text>
 </svg>
