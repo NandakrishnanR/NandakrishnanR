@@ -1,53 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260" role="img" aria-label="Tech radar — Nandakrishnan R">
-  <rect width="760" height="260" rx="12" fill="#0b1220"/>
-  <text x="28" y="34" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Tech Radar — Nandakrishnan R</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Tech Radar — Recent Work">
+  <rect width="760" height="300" rx="12" fill="#0b1220"/>
 
-  <!-- concentric rings -->
-  <g transform="translate(200,150)" fill="none" stroke="#1f2937" stroke-width="1">
-    <circle r="100"/>
-    <circle r="66"/>
-    <circle r="34"/>
+  <!-- Title -->
+  <text x="28" y="34" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Tech Radar — Recent Work</text>
+  <text x="28" y="52" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif" font-size="11">Positioning reflects recent focus: ML/AI centric, MLOps & infra, embedded & automation</text>
+
+  <!-- Concentric rings centered at 220,160 -->
+  <g transform="translate(220,160)" fill="none" stroke="#1f2937" stroke-width="1">
+    <circle r="120"/>
+    <circle r="80"/>
+    <circle r="40"/>
   </g>
 
-  <!-- dots (positioned with care so labels don't overlap) -->
-  <circle cx="150" cy="46" r="9" fill="#ff6a00" stroke="#0b1220" stroke-width="1"/>
-  <circle cx="188" cy="36" r="6" fill="#ff8a3d" stroke="#0b1220" stroke-width="1"/>
+  <!-- Center (inner-most): Machine Learning & AI -->
+  <g transform="translate(220,160)">
+    <circle cx="0" cy="0" r="22" fill="#ff6a00" stroke="#0b1220" stroke-width="1"/>
+    <text x="34" y="6" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">Machine Learning & AI</text>
+    <text x="34" y="22" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">PyTorch · TensorFlow · RAG</text>
+  </g>
 
-  <circle cx="220" cy="112" r="8" fill="#8a2be2" stroke="#0b1220" stroke-width="1"/>
-  <circle cx="260" cy="140" r="6" fill="#b085ff" stroke="#0b1220" stroke-width="1"/>
+  <!-- 2nd ring (close to center): CI/CD -->
+  <circle cx="160" cy="120" r="12" fill="#8a2be2" stroke="#0b1220" stroke-width="1"/>
+  <text x="176" y="120" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">CI / CD</text>
 
-  <circle cx="106" cy="168" r="8" fill="#00c2ff" stroke="#0b1220" stroke-width="1"/>
-  <circle cx="74"  cy="196" r="5" fill="#7fe8ff" stroke="#0b1220" stroke-width="1"/>
+  <!-- 2nd ring: MLOps -->
+  <circle cx="270" cy="120" r="12" fill="#b085ff" stroke="#0b1220" stroke-width="1"/>
+  <text x="286" y="120" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">MLOps</text>
 
-  <circle cx="300" cy="84" r="7" fill="#ffd166" stroke="#0b1220" stroke-width="1"/>
-  <circle cx="332" cy="68" r="5" fill="#ffe8a8" stroke="#0b1220" stroke-width="1"/>
+  <!-- Middle ring: Docker centered-front -->
+  <circle cx="280" cy="170" r="14" fill="#4ade80" stroke="#0b1220" stroke-width="1"/>
+  <text x="300" y="170" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">Docker</text>
 
-  <circle cx="330" cy="178" r="7" fill="#4ade80" stroke="#0b1220" stroke-width="1"/>
+  <!-- Nearby AI tooling -->
+  <circle cx="240" cy="140" r="10" fill="#ffd166" stroke="#0b1220" stroke-width="1"/>
+  <text x="256" y="138" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">LLM FT (LoRA/QLoRA)</text>
 
-  <!-- anchor line separating diagram and text -->
-  <line x1="360" y1="44" x2="360" y2="216" stroke="#0f1724" stroke-width="20"/>
+  <!-- Outer/back: AWS -->
+  <circle cx="340" cy="96" r="12" fill="#232f3e" stroke="#0b1220" stroke-width="1"/>
+  <text x="358" y="94" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">AWS · SageMaker</text>
 
-  <!-- labels on the right — each uses tspans for neat wrapping -->
-  <g transform="translate(380,58)">
-    <text x="0" y="0" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">Focus areas</text>
+  <!-- Embedded / Controls toward outer/back (left side) -->
+  <circle cx="120" cy="220" r="10" fill="#00c2ff" stroke="#0b1220" stroke-width="1"/>
+  <text x="136" y="218" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">Embedded · HIL · Simulink</text>
 
-    <text x="0" y="28" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="12">
-      <tspan x="0" dy="0">Agentic AI · LLM fine‑tuning (LoRA / QLoRA)</tspan>
-    </text>
-    <text x="0" y="52" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">
-      <tspan x="0" dy="0">MLOps · CI/CD · AWS · SageMaker</tspan>
-    </text>
-    <text x="0" y="76" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">
-      <tspan x="0" dy="0">Embedded · HIL · Simulink · LabVIEW · PROFINET</tspan>
-    </text>
-    <text x="0" y="100" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">
-      <tspan x="0" dy="0">PyTorch · TensorFlow · RL · RAG</tspan>
-    </text>
-    <text x="0" y="124" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">
-      <tspan x="0" dy="0">Docker · GitHub Actions · Git · MySQL · Linux</tspan>
-    </text>
+  <!-- LabVIEW placed farther out / back -->
+  <circle cx="60" cy="84" r="10" fill="#0076A8" stroke="#0b1220" stroke-width="1"/>
+  <text x="76" y="84" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">LabVIEW</text>
+
+  <!-- SCADA and PROFINET placed apart from LabVIEW (outer) -->
+  <circle cx="44" cy="40" r="8" fill="#1fb6d9" stroke="#0b1220" stroke-width="1"/>
+  <text x="60" y="40" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">SCADA · PROFINET</text>
+
+  <!-- TwinCAT / Beckhoff in outer layer as requested -->
+  <circle cx="80" cy="252" r="9" fill="#2b9fff" stroke="#0b1220" stroke-width="1"/>
+  <text x="98" y="250" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">TwinCAT · Beckhoff</text>
+
+  <!-- Additional infra/tools placed in back -->
+  <circle cx="320" cy="210" r="10" fill="#b085ff" stroke="#0b1220" stroke-width="1"/>
+  <text x="336" y="208" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">GitHub Actions</text>
+
+  <circle cx="360" cy="160" r="8" fill="#4479A1" stroke="#0b1220" stroke-width="1"/>
+  <text x="376" y="158" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="11">MySQL · Linux</text>
+
+  <!-- Simple legend on the right (kept minimal) -->
+  <g transform="translate(420,48)">
+    <text x="0" y="0" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">Layering — recent work</text>
+    <text x="0" y="22" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">Center: Machine Learning & AI</text>
+    <text x="0" y="40" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">2nd ring: CI/CD · MLOps</text>
+    <text x="0" y="58" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">Middle: Docker · Tooling</text>
+    <text x="0" y="76" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">Outer: AWS · LabVIEW · SCADA · TwinCAT</text>
   </g>
 
   <!-- footer small note -->
-  <text x="24" y="246" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif" font-size="11">Static tech radar — use as visual summary of core competencies</text>
+  <text x="24" y="286" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif" font-size="11">
+    Static tech radar — positions intentionally simple to reflect recent experience and priorities
+  </text>
 </svg>
