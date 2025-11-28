@@ -6,7 +6,7 @@
     Tech Radar — Recent Work
   </text>
   <text x="28" y="52" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif" font-size="11">
-    ML/AI centered, CI/CD & MLOps inner rings, Docker/MLOps mid, Embedded & Automation outer rings
+    ML/AI centered, CI/CD &amp; MLOps inner rings, Docker/MLOps mid, Embedded &amp; Automation outer rings
   </text>
 
   <!-- concentric rings centered at 260,160 -->
