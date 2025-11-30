@@ -6,7 +6,6 @@
     Tech Radar from Recent Work Experience
   </text>
   
-
   <!-- concentric rings centered at 260,160 -->
   <g transform="translate(260,160)" fill="none" stroke="#1f2937" stroke-width="1">
     <circle r="120"/>
@@ -32,12 +31,10 @@
 
   <!-- embedded / controls outer -->
   <circle cx="140" cy="220" r="10" fill="#00c2ff" stroke="#0b1220" stroke-width="1"/>
-  
-
 
   <!-- Legend block on the right with small color dots -->
   <g transform="translate(460,56)">
-    <text x="0" y="0" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">legends</text>
+    <text x="0" y="0" fill="#e6eef8" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">Legends</text>
 
     <!-- Agentic AI (center) -->
     <g transform="translate(0,22)">
@@ -45,16 +42,16 @@
       <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">Agentic AI · LLM fine-tuning (LoRA / QLoRA)</text>
     </g>
 
-    <!-- MLOps / CI/CD -->
+    <!-- CI/CD -->
     <g transform="translate(0,46)">
-      <circle cx="0" cy="6" r="6" fill="#ffd966" stroke="#0b1220" stroke-width="1"/>
-      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">MLOps · CI/CD · AWS · </text>
+      <circle cx="0" cy="6" r="6" fill="#8a2be2" stroke="#0b1220" stroke-width="1"/>
+      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">CI/CD · GitHub Actions</text>
     </g>
 
-    <!-- Embedded / Controls -->
+    <!-- MLOps -->
     <g transform="translate(0,70)">
-      <circle cx="0" cy="6" r="6" fill="#8a2be2" stroke="#0b1220" stroke-width="1"/>
-      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">Embedded · HIL · Simulink · LabVIEW · PROFINET</text>
+      <circle cx="0" cy="6" r="6" fill="#ffd966" stroke="#0b1220" stroke-width="1"/>
+      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">MLOps · AWS · Model Ops</text>
     </g>
 
     <!-- ML Tooling -->
@@ -66,14 +63,13 @@
     <!-- Docker / Infra -->
     <g transform="translate(0,118)">
       <circle cx="0" cy="6" r="6" fill="#4ade80" stroke="#0b1220" stroke-width="1"/>
-      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">Docker · GitHub Actions · Git · MySQL · Linux</text>
+      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">Docker · Git · MySQL · Linux</text>
     </g>
 
-    <!-- TwinCAT -->
+    <!-- Embedded / Controls -->
     <g transform="translate(0,142)">
-      <circle cx="0" cy="6" r="6" fill="#2b9fff" stroke="#0b1220" stroke-width="1"/>
-      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">TwinCAT · Beckhoff</text>
+      <circle cx="0" cy="6" r="6" fill="#00c2ff" stroke="#0b1220" stroke-width="1"/>
+      <text x="14" y="10" fill="#d6e3f3" font-family="Arial, Helvetica, sans-serif" font-size="12">Embedded · HIL · Simulink · LabVIEW · PROFINET</text>
     </g>
   </g>
-
- 
+</svg>
