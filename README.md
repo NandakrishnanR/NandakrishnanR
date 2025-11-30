@@ -1,4 +1,3 @@
-<!-- Profile README for @NandakrishnanR -->
 <!-- Banner -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&height=300&color=0:ff6a00,100:ee0979&text=Nandakrishnan%20Rajeev&fontAlign=50&fontAlignY=25&fontSize=50&fontColor=ffffff&desc=Agentic%20AI%20%7C%20Automation%20%7C%20MLOps&descAlign=50&descAlignY=50" alt="header" width="100%" />
