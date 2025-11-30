@@ -96,24 +96,6 @@ Enterprise-grade: deterministic fallbacks, audit trails, SOC‑friendly logging.
 
 ---
 
-## 🔧 How to keep these images working (minimal)
-1. Confirm the three files exist on the default branch (usually main) in the repo root:
-   - ./tech-radar.svg
-   - ./github-metrics.svg
-   - ./snake.svg
-2. If a generated image is updated by Actions, ensure the workflow commits to the default branch and checkout uses persist-credentials: true.
-3. If GitHub refuses to render an SVG, produce a PNG fallback and update the README reference (PNG always renders). Quick conversion:
-   - pip install cairosvg
-   - python -c "import cairosvg; cairosvg.svg2png(url='tech-radar.svg', write_to='tech-radar.png')"
-4. If you still see "Invalid image source", check encoding: files must be UTF-8 without BOM and be well-formed XML. Locally run:
-   - python -c "import xml.etree.ElementTree as ET; ET.parse('tech-radar.svg'); print('OK')"
-
----
-
-## 🌶️ Principles
-- "Boringly reliable" > "flashy but flaky."  
-- Prefer small, composable tools over monoliths.  
-- Ship → measure → tighten feedback loops → repeat.
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:ee0979,100:ff6a00&section=footer" width="100%" />
