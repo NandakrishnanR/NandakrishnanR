@@ -41,17 +41,6 @@ Enterprise-grade: deterministic fallbacks, audit trails, SOC‑friendly logging.
 - Tech radar and core focus areas (static visual):  
   ![Tech Radar](./tech-radar.svg)
 
-  The tech radar is intentionally simple and based on recent work: ML/AI centered, CI/CD & MLOps in the inner rings, Docker/MLOps in the mid layer, and embedded/automation (LabVIEW, SCADA, TwinCAT) in the outer layer.
-
-- Repository-level metrics (placeholder badge):  
-  ![GitHub metrics](./github-metrics.svg)
-
-- Contribution snapshot (static placeholder):  
-  ![Contribution Snake](./snake.svg)
-
-> Notes: images referenced above are static assets committed to the repository root (tech-radar.svg, github-metrics.svg, snake.svg). If you regenerate visuals, keep these filenames or update the README image paths.
-
----
 
 ## 📊 GitHub at a glance
 <p>
