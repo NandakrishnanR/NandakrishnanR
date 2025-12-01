@@ -88,14 +88,7 @@ Enterprise-grade: deterministic fallbacks, audit trails, SOC‑friendly logging.
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FF6A00?style=for-the-badge&logo=huggingface&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-7A42BC?style=for-the-badge&logo=opentelemetry&logoColor=white)
 
----
 
-## 🧩 Achievements & Metrics
-- Enterprise MLOps pipelines, scaled LLM deployments, production RL integrations.  
-- AWS Certified Cloud Practitioner.  
-- Published components for HIL and embedded test automation.
-
----
 
 
 <p align="center">
