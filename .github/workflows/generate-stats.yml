@@ -1,0 +1,39 @@
+name: Generate GitHub Language Stats
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'  # nightly at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate language stats SVG
+        run: node scripts/generate-stats.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: NandakrishnanR
+
+      - name: Commit generated SVG
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'assets/github-langs.svg'
+          message: 'chore: update language stats SVG'
+          default_author: github_actions

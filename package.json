@@ -1,0 +1,11 @@
+{
+  "name": "nandakrishnanr-profile",
+  "version": "1.0.0",
+  "description": "GitHub profile README with auto-generated language stats",
+  "scripts": {
+    "generate": "node scripts/generate-stats.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.2"
+  }
+}
