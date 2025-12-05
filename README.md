@@ -38,7 +38,7 @@ Enterprise-grade: deterministic fallbacks, audit trails, SOC‑friendly logging.
 ---
 
 ## 📌 Highlights
-- Tech radar and core focus areas (static visual):  
+- Tech radar and core focus areas :  
   ![Tech Radar](./tech-radar.svg)
 
 
