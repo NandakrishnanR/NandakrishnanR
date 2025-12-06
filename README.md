@@ -51,29 +51,54 @@ Enterprise-grade: deterministic fallbacks, audit trails, SOC‑friendly logging.
 ---
 
 ## 🧰 Toolbox 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=matlab&logoColor=white)
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![LoRA](https://img.shields.io/badge/LoRA-6B7280?style=for-the-badge&logo=azure&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-2DD4BF?style=for-the-badge&logo=read-the-docs&logoColor=white)
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GH_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-![Simulink](https://img.shields.io/badge/Simulink-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![LabVIEW](https://img.shields.io/badge/LabVIEW-FFB300?style=for-the-badge&logo=national-instruments&logoColor=white)
-![TwinCAT](https://img.shields.io/badge/TwinCAT-Beckhoff-2B9FFF?style=for-the-badge&logo=beckhoff&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FF6A00?style=for-the-badge&logo=huggingface&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-7A42BC?style=for-the-badge&logo=opentelemetry&logoColor=white)
+<table>
+  <tr>
+    <th align="left">Languages</th>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+      <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=matlab&logoColor=white" alt="MATLAB" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">ML & LLM</th>
+    <td>
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+      <img src="https://img.shields.io/badge/LoRA-6B7280?style=for-the-badge&logo=azure&logoColor=white" alt="LoRA" />
+      <img src="https://img.shields.io/badge/RAG-2DD4BF?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="RAG" />
+      <img src="https://img.shields.io/badge/Hugging_Face-FF6A00?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Cloud & DevOps</th>
+    <td>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
+      <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/Automation-4B5563?style=for-the-badge&logo=robot-framework&logoColor=white" alt="Automation" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Embedded & Control</th>
+    <td>
+      <img src="https://img.shields.io/badge/Simulink-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="Simulink" />
+      <img src="https://img.shields.io/badge/LabVIEW-FFB300?style=for-the-badge&logo=national-instruments&logoColor=white" alt="LabVIEW" />
+      <img src="https://img.shields.io/badge/TwinCAT-Beckhoff-2B9FFF?style=for-the-badge&logo=beckhoff&logoColor=white" alt="TwinCAT" />
+      <img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Data</th>
+    <td>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+    </td>
+  </tr>
+</table>
 
 
 
