@@ -44,24 +44,9 @@ Enterprise-grade: deterministic fallbacks, audit trails, SOC‑friendly logging.
 
 ## 📊 GitHub at a glance
 <p>
-  <img src="https://github-readme-stats-alpha-gray-16.vercel.app/api/cards/profile-details?username=NandakrishnanR" height="150" alt="Profile summary" onerror="this.style.display='none'" />
-  <img src="https://github-readme-stats-alpha-gray-16.vercel.app/api/top-langs/?username=NandakrishnanR&layout=compact&theme=radical" height="150" alt="Top languages" onerror="this.style.display='none'" />
+  <img src="https://github-readme-stats-alpha-gray-16.vercel.app/api/cards/profile-details?username=NandakrishnanR" height="150" alt="Profile summary" />
+  <img src="https://github-readme-stats-alpha-gray-16.vercel.app/api/top-langs/?username=NandakrishnanR&layout=compact&theme=radical" height="150" alt="Top languages" />
 </p>
-
-<!-- Fallback content if dynamic stats fail to load -->
-<details>
-<summary><strong>📈 GitHub Stats (Click if images don't load)</strong></summary>
-
-- **Language Proficiency**: Python, C++, C#, MATLAB  
-- **ML/AI**: PyTorch, TensorFlow, LoRA, RAG systems  
-- **Cloud & DevOps**: AWS, Docker, Terraform, GitHub Actions  
-- **Embedded Systems**: Simulink, LabVIEW, TwinCAT, Raspberry Pi  
-- **Databases**: MySQL, data engineering  
-- **Tools & Platforms**: Hugging Face, OpenTelemetry  
-
-📌 **Active Areas**: Agentic AI frameworks, MLOps, enterprise automation, platform engineering  
-🔗 [View full GitHub profile](https://github.com/NandakrishnanR)
-</details>
 
 ---
 
