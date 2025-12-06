@@ -44,8 +44,8 @@ Enterprise-grade: deterministic fallbacks, audit trails, SOC‑friendly logging.
 
 ## 📊 GitHub at a glance
 <p>
-  <img src="https://github-readme-stats-alpha-gray-16.vercel.app/api/cards/profile-details?username=NandakrishnanR" height="150" alt="Profile summary" />
-  <img src="https://github-readme-stats-alpha-gray-16.vercel.app/api/top-langs/?username=NandakrishnanR&layout=compact&theme=radical" height="150" alt="Top languages" />
+  <img src="https://github-readme-stats-alpha-gray-16.vercel.app/api?username=NandakrishnanR&show_icons=true&theme=radical" height="160" alt="GitHub stats" />
+  <img src="https://github-readme-stats-alpha-gray-16.vercel.app/api/top-langs?username=NandakrishnanR&layout=compact&theme=radical" height="160" alt="Top languages" />
 </p>
 
 ---
