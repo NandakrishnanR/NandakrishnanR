@@ -17,8 +17,8 @@
 
 <p align="center">
   <!-- Focus areas, each badge links to a relevant section below -->
-  <a href="#-what-i%E2%80%99m-building-right-now">
-    <img src="https://img.shields.io/badge/Enterprise-Agentic_AI-ff6a00?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Enterprise Agentic AI" />
+   <a href="./Nandakrishnan_Rajeev_Resume.pdf">
+    <img src="https://img.shields.io/badge/Resume-Download-ff6a00?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" />
   </a>
   <a href="#-what-i%E2%80%99m-building-right-now">
     <img src="https://img.shields.io/badge/Platform-MLOps-8A2BE2?style=for-the-badge&logo=mlflow&logoColor=white" alt="Platform & MLOps" />
