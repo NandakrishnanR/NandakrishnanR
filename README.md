@@ -17,7 +17,7 @@
 
 <p align="center">
   <!-- Focus areas, each badge links to a relevant section below -->
-   <a href="./Nandakrishnan_Rajeev_Resume.pdf">
+   <a href="./Rajeev_CV.pdf">
     <img src="https://img.shields.io/badge/Resume-Download-ff6a00?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" />
   </a>
   <a href="#-what-i%E2%80%99m-building-right-now">
